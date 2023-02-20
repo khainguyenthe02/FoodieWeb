@@ -148,7 +148,7 @@
                   Hương vị phù hợp với giá tiền, lần sau ghé lại mình sẽ quay lại, mình không dùng thẻ.
                 </p>
                 <h6>
-                  Quang Thu
+                  Quang Thu Nguyễn
                 </h6>
                 <p>
                   Vĩnh Phúc
