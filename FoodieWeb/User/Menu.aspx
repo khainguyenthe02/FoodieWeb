@@ -41,7 +41,7 @@
                             <h5>
                                 <%# Eval("ProductName") %>
                             </h5>
-                            <p>
+                            <p style="overflow:hidden; text-overflow: ellipsis; white-space: nowrap;">
                             <%# Eval("ProductDescription") %>
                             </p>
                             <div class="options">
@@ -70,36 +70,7 @@
                                      c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
                                       </g>
                                     </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
-                                    <g>
-                                    </g>
+                                 
                                   </svg>
                                 </asp:LinkButton>
                             </div>

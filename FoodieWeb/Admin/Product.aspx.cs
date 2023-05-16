@@ -92,6 +92,18 @@ namespace FoodieWeb.Admin
                     lblMsg.Visible = true;
                     lblMsg.Text = "Error: " + ex.Message;
                     lblMsg.CssClass = "alert alert-danger";
+                    if(ex.Message.Contains("String or binary data would be truncated"))
+                    {
+                        lblMsg.Visible = true;
+                        lblMsg.Text = "Lỗi: Phần mô tả quá dài, vui lòng bỏ bớt ";
+                        lblMsg.CssClass = "alert alert-danger";
+                    }
+                    else
+                    {
+                        lblMsg.Visible = true;
+                        lblMsg.Text = "Lỗi: " + ex.Message;
+                        lblMsg.CssClass = "alert alert-danger";
+                    }
                 }
                 finally
                 {

@@ -121,7 +121,7 @@
                                                             ErrorMessage="Phần thể loại bắt buộc" ForeColor="Red" Display="Dynamic"
                                                             SetFocusOnError="true" ControlToValidate="ddlCategories" InitialValue="0" >
                                                         </asp:RequiredFieldValidator>
-                                                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:FoodShopConnectionString %>" SelectCommand="SELECT [CategoryID], [CategoryName] FROM [CATEGORIES]"></asp:SqlDataSource>
+                                                        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:con %>" SelectCommand="SELECT [CategoryID], [CategoryName] FROM [CATEGORY]"></asp:SqlDataSource>
                                                     </div>
                                                 </div>
 

@@ -54,7 +54,7 @@
 <body>
     <form id="form1" runat="server">
         <!-- Pre-loader start -->
-    <div class="theme-loader">
+    <%--<div class="theme-loader">
         <div class="ball-scale">
             <div class='contain'>
                 <div class="ring">
@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
     <!-- Pre-loader end -->
     <div id="pcoded" class="pcoded">
         <div class="pcoded-overlay-box"></div>
@@ -103,8 +103,8 @@
                         <a class="mobile-menu" id="mobile-collapse" href="#!">
                             <i class="ti-menu"></i>
                         </a>
-                        <a href="index.html">
-                            <img class="img-fluid" src="assets/images/logo.png" alt="Theme-Logo" />
+                        <a href="Default.aspx">
+                            <img class="img-fluid" src="../assets/images/logo.png" alt="Theme-Logo" />
                         </a>
                         <a class="mobile-options">
                             <i class="ti-more"></i>
@@ -153,7 +153,7 @@
                     <nav class="pcoded-navbar">
                         <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
                         <div class="pcoded-inner-navbar main-menu" id="navbarSupportedContent">
-                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Giới thiệu</div>
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Thống kê</div>
                             <ul class="pcoded-item pcoded-left-item">
                                 <li >
                                     <a href="Dashboard.aspx">
