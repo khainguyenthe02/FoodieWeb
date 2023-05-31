@@ -35,6 +35,7 @@ body {
         color: #111111;
     }
     .product__details__option .pro-qty input{
+        outline: none;
         border: none;
         height: 100%;
         width: 72px;
@@ -132,7 +133,6 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -179,7 +179,8 @@ a:focus {
 }
 
 .header_section {
-  padding: 15px 0;
+    padding: 15px 0;
+    background: #222831;
 }
 
 .header_section .container-fluid {
@@ -205,15 +206,16 @@ a:focus {
   padding-left: 18%;
 }
 
-.custom_nav-container .navbar-nav .nav-item .nav-link {
-  padding: 5px 20px;
-  color: #ffffff;
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 5px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
+    .custom_nav-container .navbar-nav .nav-item .nav-link {
+        font-weight: bold;
+        padding: 5px 20px;
+        color: #7bcef7;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 5px;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+    }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
   color: #ffbe33;
@@ -377,6 +379,7 @@ a:focus {
 }
 
 .slider_section .detail-box {
+  height: 400px;
   color: #ffffff;
   margin-bottom: 145px;
 }
@@ -437,8 +440,9 @@ a:focus {
 }
 
 .offer_section {
-  position: relative;
-  padding-top: 45px;
+    background: antiquewhite;
+    position: relative;
+    padding-top: 45px;
 }
 
 .offer_section .box {

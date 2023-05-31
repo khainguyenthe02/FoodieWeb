@@ -16,7 +16,7 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="../TemplateFiles/images/favicon.png" type="">
 
-  <title>Kric thích Food</title>
+  <title>Ẩm thực </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="../TemplateFiles/css/bootstrap.css" />
@@ -56,9 +56,7 @@
     <form id="form1" runat="server">
         
         <div class="hero_area">
-    <div class="bg-box">
-      <img src="../TemplateFiles/images/hero-bg.jpg" alt="">
-    </div>
+    
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">

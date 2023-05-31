@@ -126,7 +126,7 @@
                                                 </div>
 
                                                 <div class="form-check pl-4">
-                                                    <asp:CheckBox ID="cbIsActive" runat="server" Text="&nbsp; IsActive"
+                                                    <asp:CheckBox ID="cbIsActive" runat="server" Text="&nbsp; Khả dụng"
                                                         CssClass="form-check-input" />
                                                 </div>
 
