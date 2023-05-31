@@ -48,7 +48,7 @@
                             <div class="product__details__option">
                                 <div class="quantity">
                                     <div class="pro-qty">
-                                        <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" Text='<%# Eval("Qty") %>'></asp:TextBox>
+                                        <asp:TextBox ID="txtQuantity"  runat="server" TextMode="Number" Text='<%# Eval("Qty") %>'></asp:TextBox>
                                         <asp:RegularExpressionValidator ID="revQuantity" runat="server" ErrorMessage="*" ForeColor="Red" Font-Size="Small"
                                             ValidationExpression="[1-9]*" ControlToValidate="txtQuantity"
                                             Display="Dynamic" SetFocusOnError="true" EnableClientScript="true" ></asp:RegularExpressionValidator>

@@ -187,16 +187,6 @@
                                 </li>        
                             </ul>
 
-                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Tình trạng sản phẩm</div>
-                            <ul class="pcoded-item pcoded-left-item">
-                                <li>
-                                    <a href="#">
-                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Cập nhật trạng thái</span>
-                                        <span class="pcoded-mcaret"></span>
-                                    </a>
-                                </li>
-                            </ul>
 
                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Người dùng</div>
                             <ul class="pcoded-item pcoded-left-item">
@@ -209,16 +199,6 @@
                                 </li>
                             </ul>
 
-                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Phản hồi của người dùng</div>
-                            <ul class="pcoded-item pcoded-left-item">
-                                <li>
-                                    <a href="#">
-                                        <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
-                                        <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Liên hệ</span>
-                                        <span class="pcoded-mcaret"></span>
-                                    </a>
-                                </li>
-                            </ul>
 
                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Báo cáo</div>
                             <ul class="pcoded-item pcoded-left-item">
